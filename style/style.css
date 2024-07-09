@@ -180,7 +180,54 @@ body {
 .item-2 .item-2-image {
     width: 50%;
 }
+
 /* reason-of-development CSS end */
 
+/* inspiration-section CSS start */
+#inspiration-section {
+    width: 79.2%;
+    margin: 0 auto;
+    margin-bottom: 151px;
+}
+
+.inspiration-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspiration-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0 48px 0;
+}
+
+.inspiration-video {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    text-align: center;
+    padding: 32px;
+}
+
+.inspiration-video iframe {
+    border-radius: 16px;
+}
+
+/* inspiration-section CSS end */
 
 /* Main CSS end */
+
+/* Footer CSS Start */
+
+/* Footer CSS end */
