@@ -63,6 +63,7 @@ body {
 }
 
 .header-content p {
+    font-family: Azeret Mono;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -70,7 +71,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 32px;
-    font-family: Azeret Mono;
+    opacity: 0.7;
 }
 
 .header-content-button a button {
@@ -226,6 +227,229 @@ body {
 
 /* inspiration-section CSS end */
 
+/* target-section CSS start */
+#target-section {
+    width: 79.2%;
+    margin: 0 auto;
+}
+
+.current-target-heading H2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.current-target-heading P {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.current-target-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 111px;
+}
+
+.current-target-item {
+    width: 33.33%;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.current-target-item h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.current-target-item p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.current-target-item a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.next-target-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.next-target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0 48px 0;
+}
+
+.next-target-items {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.target-item-image {
+    width: 18%;
+}
+
+.target-item-content {
+    width: 82%;
+}
+
+.target-item-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.target-item-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0 24px 0;
+}
+
+.target-item-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* target-section CSS end */
+
+/* support section CSS start */
+.support-section {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 48px;
+    height: 314px;
+    border-radius: 16px;
+    margin: 50px 0;
+}
+
+.support-section h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-section p {
+    margin: 16px 0 24px 0;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-section form {
+    text-align: center;
+}
+
+.support-section form input {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+}
+
+input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+.support-section form button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+/* support section CSS end */
 /* Main CSS end */
 
 /* Footer CSS Start */
@@ -257,4 +481,4 @@ body {
     gap: 20px;
 }
 
-/* Footer CSS end */
+/* footer CSS end */
