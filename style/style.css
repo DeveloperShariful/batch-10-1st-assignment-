@@ -211,6 +211,7 @@ body {
     text-align: center;
     opacity: 0.7;
     margin: 24px 0 48px 0;
+
 }
 
 .inspiration-video {
@@ -411,6 +412,7 @@ body {
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
+    opacity: 0.7;
     text-align: center;
 }
 
